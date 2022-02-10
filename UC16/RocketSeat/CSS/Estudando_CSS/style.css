@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+/*Deixa um pouco mais lento*/
+h1{
+   color: cadetblue; 
+   font-family: 'Ranchers', cursive;
+}
+
+strong{
+    color:red;
+}

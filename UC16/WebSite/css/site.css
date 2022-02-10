@@ -1,0 +1,43 @@
+﻿@import url(../lib/font-awesome/webfonts/fa-brands-400.ttf);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+*{
+    margin:0;
+    padding:0;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding-top: 50px;
+    font-family: "Roboto";
+}
+/*Bootstrap personalizado*/
+.bg-primary{
+    background-color: #F28C0F !important;
+}
+
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .bg-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #F28C0F !important;
+    border-color: #A67A29;
+}
+
+.btn-primary:hover {
+   color: #fff;
+   background-color: #F2A413 !important;
+   border-color: #A67A29;
+}
+
+a {
+    color: #fff;
+}
+
+    a:hover {
+        color: #A67A29;
+        text-decoration: underline;
+    }

@@ -1,0 +1,16 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\Exercício_Final.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\Exercício_Final.deps.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\Exercício_Final.runtimeconfig.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\Exercício_Final.runtimeconfig.dev.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\Exercício_Final.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\ref\Exercício_Final.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\bin\Debug\net5.0\Exercício_Final.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.csprojAssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.AssemblyInfoInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.AssemblyInfo.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\ref\Exercício_Final.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Exercício_Final\obj\Debug\net5.0\Exercício_Final.genruntimeconfig.cache

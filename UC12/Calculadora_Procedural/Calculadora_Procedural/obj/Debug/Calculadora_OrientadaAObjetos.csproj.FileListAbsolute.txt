@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\bin\Debug\Calculadora_OrientadaAObjetos.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\bin\Debug\Calculadora_OrientadaAObjetos.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\bin\Debug\Calculadora_OrientadaAObjetos.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.FrmPrincipal.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Calculadora_OrientadaAObjetos\Calculadora_OrientadaAObjetos\obj\Debug\Calculadora_OrientadaAObjetos.pdb

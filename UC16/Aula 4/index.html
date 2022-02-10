@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - Javascript</title>
+</head>
+<body>
+    <section id="artigos1">
+
+    </section>
+    <section id="artigos2">
+
+    </section>
+    <script>
+        var artigos = [];
+        //VERSÃO 1
+        //Artigo 1
+        /*artigos[0] = "Artigo 1";
+        artigos[1] = "Texto 1 do artigo 1";
+        artigos[2] = "Texto 2 do artigo 1";
+        artigos[3] = "Texto 3 do artigo 1";
+
+        //Artigo 2
+        artigos[4] = "Artigo 2";
+        artigos[5] = "Texto 1 do artigo 2";
+        artigos[6] = "Texto 2 do artigo 2";
+        artigos[7] = "Texto 3 do artigo 2";
+
+        //Mostra uma sessão na página HTML
+        function exibeSessao(sessaoId, artigoInicio, artigoTermino){
+            //Mexendo em uma sessão que já está no HTML
+            //Parent
+            let sessao = document.getElementById(sessaoId);
+            //Primeiro node
+            let div = document.createElement('div');
+            //Nome diferentão para o ID
+            div.setAttribute('id', `art-${artigoInicio}-${artigoTermino}`);
+            for(let cont=artigoInicio; cont<=artigoTermino; cont++){
+                let h2 = document.createElement('h2');
+                let p = document.createElement('p');
+                //Verificação: se é o primeiro
+                if(cont == artigoInicio){
+                    //Segundo node
+                    h2.textContent = artigos[cont];
+                    div.appendChild(h2);
+                }else{
+                    //Terceiro node
+                    p.textContent = artigos[cont];
+                    div.appendChild(p);
+                }
+                sessao.appendChild(div);
+            }
+        }
+        //Chamando a função
+        //Quando você chama a função, ocorre um desvio de fluxo pra cá
+        exibeSessao("artigos1", 0, 3);
+        exibeSessao("artigos2", 4, 7);*/
+
+        //VERSÃO 2
+        //Utilizando a técnica de descrição (não é a melhor)
+        /*var artigo = new Object();
+        artigo.titulo = "Artigo 1";
+        artigo.descricao = "Texto";*/
+
+        //Criando Objeto por função
+        function Artigo(titulo, introducao, descricao, conclusao){
+            this.titulo = titulo;
+            this.introducao = introducao;
+            this.descricao = descricao;
+            this.conclusao = conclusao;
+        }
+
+        var artigo1 = new Artigo("Artigo 1", "Texto 1 do artigo 1", "Texto 2 do artigo 1");
+        var artigo2 = new Artigo("Artigo 2", "Texto 1 do artigo 2\n\n Texto 2 do artigo 2");
+
+        function exibeSessao(sessaoId, artigo){
+            //Mexendo em uma sessão que já está no HTML
+            //Parent
+            let sessao = document.getElementById(sessaoId);
+
+            //Primeiro node
+            let div = document.createElement('div');
+
+            //Nome diferentão para o ID
+            //div.setAttribute('id', `art-${artigoInicio}-${artigoTermino}`);
+
+            //Node 2
+            let h2 = document.createElement('h2');
+            h2.textContent = artigo.titulo;
+            //Node 3
+            if(artigo.introducao != null){
+                let p = document.createElement('p');
+                p.innerHTML = artigo.introducao;
+                div.appendChild(p);
+            }
+            if(artigo.descricao != null){
+                let p = document.createElement('p');
+                p.innerHTML = artigo.descricao;
+                div.appendChild(p);
+            }
+            if(artigo.conclusao != null){
+                let p = document.createElement('p');
+                p.innerHTML = artigo.conclusao;
+                div.appendChild(p);
+            }
+            
+            //Adiciona os itens na sessão
+            div.appendChild(h2);
+            
+            sessao.appendChild(div);
+        }
+        //Chamando a função
+        //Quando você chama a função, ocorre um desvio de fluxo pra cá
+        exibeSessao("artigos1", artigo1);
+        exibeSessao("artigos2", artigo2);
+    </script>
+</body>
+</html>

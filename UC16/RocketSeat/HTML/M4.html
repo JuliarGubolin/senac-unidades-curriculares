@@ -1,0 +1,96 @@
+<!--
+    <table>
+
+    Prós
+    - Visualização de dados via linhas e colunas
+    - Boa acessibilidade para leitura de dados
+
+    Contras
+    - Pouco flexível
+    - Precisa de estilização para melhor visualização
+
+    Não usar
+    - Para criar seu layout
+-->
+<table>
+    <caption>Pessoas por idade</caption>
+    <thead>
+        <!--TR é uma linha da tabela-->
+        <tr>
+            <!--Nome das colunas-->
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!--Linhas na tabela-->
+            <td>Mike</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+    <!--Rodapé-->
+    <tfoot>
+        <td>Total:</td>
+        <td>2 pessoas</td>
+    </tfoot>
+</table>
+
+<!--Tabela um pouco mais complexa
+    2 lojas
+        Quantos produtos foram produzidos, 
+        quantos vendidos e agrupado por nome dos produtos 
+-->
+<br><br>
+<table>
+    <caption>Produzidos X vendidos por loja</caption>
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red" >
+        <col span="2" style="background-color: blue">
+    </colgroup>
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Afonso pena</th>
+            <th colspan="2" scope="colgroup">Antonia pereira</th>
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th scope="row">Baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+
+
+
+
+
+
+

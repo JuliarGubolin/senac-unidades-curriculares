@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\bin\Debug\VetorUni.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\bin\Debug\VetorUni.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\bin\Debug\VetorUni.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.FrmPrincipal.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\VetorUni\VetorUni\obj\Debug\VetorUni.pdb

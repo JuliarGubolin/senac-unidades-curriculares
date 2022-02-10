@@ -1,0 +1,110 @@
+<!--
+    Hyperlinks - Elemento Âncora: <a>
+    
+    +Anatomia
+
+    +Atributos
+    - globais (title, id, class)
+    - href
+        - Pra onde iremos, quando clicarmos no link?
+            - URL Completa
+            - Fragmento
+            - Telefone
+            - Email
+            - Outros
+    - Download
+    - Target
+        - _self (padrão)
+        - _blanck
+-->
+<!--Download baixa o que está no link-->
+<!--Target blank abre um novo conteúdo/aba-->
+<a href="http://google.com" download="" target="_blank">Conteúdo</a>
+
+<p>
+    <li><a href="https://rocketseat.com.br" target="_blank">Website</a></li>
+    <li><a href="mailto:mayk@rocketseat.com.br">Email</a></li>
+    <li><a href="tel:+5517991456213">Telefone</a></li>
+</p>
+
+<!--Manteve a URL mas colocou algo novo-->
+<p>
+    <ul>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#history">História</a></li>
+        <li><a href="#works">Trabalhos</a></li>
+    </ul>
+
+</p>
+
+<h1 id="about">Sobre mim</h1>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in architecto nisi error molestias laudantium corporis consequatur ullam incidunt harum fugiat veniam nemo, blanditiis odio amet consequuntur ducimus suscipit tempore?
+
+<h2 id="history">História</h2>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in architecto nisi error molestias laudantium corporis consequatur ullam incidunt harum fugiat veniam nemo, blanditiis odio amet consequuntur ducimus suscipit tempore?
+
+<h2 id="works">Trabalhos</h2>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint in architecto nisi error molestias laudantium corporis consequatur ullam incidunt harum fugiat veniam nemo, blanditiis odio amet consequuntur ducimus suscipit tempore?
+
+<!--
+    Conteúdo dos hiperlinks
+    - qualquer conteúdo
+-->
+
+<!--<a href="http://google.com" title="Ir para google"><h1>Google</h1>
+    <p>Mais de um item</p><img src="https://source.unsplash.com/random" alt=""></a>-->
+
+
+<!--
+    URLS e caminhos de arquivo
+    - Uniform Resourse Locator
+        - https://www.rocketseat.com.br
+        - Sequência de texto que define onde algo está localizado na web
+        - URL usam caminhos para encontrar arquivos
+    - Caminhos de arquivos
+        - Onde, no explorador de arquivos, um recurso está localizado
+-->
+
+<!--Navegar pelas pastas-->
+<a href="M1.html" target="blanck">Abrir hiperlinks</a>
+
+<!--
+    Como  navegar pelos caminhos
+    - mesmo diretório
+    - entrando em diretórios
+    - saindo de diretórios
+    - diretório raiz (root ou pai)
+-->
+<br>
+<br>
+<a href="M1.html">Arquivo na mesma pasta</a>
+<a href="Outros/Semanica.html">Conteúdo na pasta</a>
+<a href="../Outros/Semanica.html">Arquivo na pasta Outros, que está na pasta anterior</a>
+<a href="./M3.html">Arquivo no diretório raiz</a>
+
+<!--
+    URL absoluta versus URL relativas
+
+    -Absolutas
+        - Inclui protocolo e nome de domínio
+        - http://www.rocketseat.com.br/projeto/index.html
+        - Sempre apontará para o mesmo local, pois é absoluto
+    - Relativas
+        - Relativo a página aberta no momento
+        - Apontará para lugares diferentes
+-->
+<br>
+<br>
+<!--Na subpasta não existe google.com, então da erro-->
+<a href="google.com">Ir para google relativo</a>
+<br>
+<a href="https://google.com">Ir para google absoluto</a>
+
+
+
+
+
+
+
+
+

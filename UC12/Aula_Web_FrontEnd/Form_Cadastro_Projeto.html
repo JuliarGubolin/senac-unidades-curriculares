@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FutureWeb Informática</title>
+
+    <link href="bt1/bt2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bt1/bt2/docs/4.0/examples/offcanvas/offcanvas.css" rel="stylesheet" />
+    <link href="bt1/bt2/docs/4.0/examples/navbars/navbar.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">Área Administrativa</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="Painel_Controle.html">Painel de Controle</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="Login.html">Sair</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="container">
+        <div class="py-5">
+            <h2>Formulário Curso</h2>
+        </div>
+        <div class="col-md-8 order-md-1">
+            <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label form="nome">
+                        Nome do projeto
+                    </label>
+                    <input type="text" class="form-control" id="projeto" placeholder="* Obrigatorio" required />
+                    <div class="invalid-feedback">
+                        O nome do projeto é obrigatório!
+                    </div>
+                    <hr class="mb-4" />
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-md-4">
+                        <label for="lista">Lista dos Alunos</label>
+                        <select class="custom-select d-block w-100" id="lista" size="4">
+                            <option>Maria&nbsp;&nbsp;</option>
+                            <option>João</option>
+                            <option>Pedro</option>
+                            <option>Amir</option>
+
+                        </select>
+                    </div>
+                    <ul class="list-unstyled">
+                        <pre></pre>
+                        <pre></pre>
+                        <li>
+                            <button class="btn btn-primary" type="submit" style="width:110px">
+                                Adicionar-->
+                            </button>
+                        </li>
+                        <pre></pre>
+                        <pre></pre>
+                        <li>
+                            <button class="btn btn-primary" type="submit" style="width:110px">
+                                --Remover
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="col-md-4 mb-3">
+                        <label for="participantes">Participantes do Projeto</label>
+                        <select class="custom-select d-block w-100" id="participantes" size="4">
+                            <option>Luiz&nbsp;&nbsp;</option>
+                            <option>Carlos</option>
+                            <option>Eduardo</option>
+                        </select>
+                    </div>
+                </div>
+                <hr class="mb-4" />
+                <label>Descrição do projeto</label><br />
+                <textarea name="observacao" cols="95" rols="10"></textarea>
+                <button class="btn btn-primary" type="submit">Pesquisar</button>
+                <button class="btn btn-primary" type="submit">Salvar</button>
+                <button class="btn btn-primary" type="submit">Editar</button>
+                <button class="btn btn-primary" type="submit">Excluir</button>
+            </form>
+            <hr class="mb-4"/>
+            <a href="Painel_Controle.html"><button class="btn btn-primary" type="button">Cancelar</button></a>
+        </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2017/2021 FutureWeb</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        section{
+            background-color: blue;
+            color:white;
+            height: 100px;
+        }
+        p{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+
+    <script>
+        //var pagina = document.querySelector("html");
+        //Define seletor de construção
+        var pagina = document.querySelector("body");
+        //Cria os elementos (seletores) do documento
+        var sessao = document.createElement("section");
+        var paragrafo = document.createElement("p");
+
+        //Adiciona os elementos e constrói a página
+        //Adicionar a sessão na página
+        pagina.appendChild(sessao);
+        //pagina.appendChild(paragrafo);
+        sessao.appendChild(paragrafo);
+        paragrafo.textContent = "Paragrafo.";
+        paragrafo.innerHTML = "<br> Paragrafo <br>";
+
+    </script>
+</body>
+</html>

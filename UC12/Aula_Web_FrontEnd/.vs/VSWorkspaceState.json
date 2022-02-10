@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bt1",
+    "\\bt1\\bt2",
+    "\\bt1\\bt2\\assets",
+    "\\bt1\\bt2\\assets\\js",
+    "\\bt1\\bt2\\docs",
+    "\\bt1\\bt2\\docs\\4.0",
+    "\\bt1\\bt2\\docs\\4.0\\examples",
+    "\\bt1\\bt2\\docs\\4.0\\examples\\offcanvas"
+  ],
+  "SelectedNode": "\\bt1\\bt2\\assets\\js\\vendor",
+  "PreviewInSolutionExplorer": false
+}

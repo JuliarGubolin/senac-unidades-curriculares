@@ -1,0 +1,16 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\Ex_1.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\Ex_1.deps.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\Ex_1.runtimeconfig.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\Ex_1.runtimeconfig.dev.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\Ex_1.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\ref\Ex_1.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\bin\Debug\net5.0\Ex_1.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.csprojAssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.AssemblyInfoInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.AssemblyInfo.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\ref\Ex_1.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_condicionais\Ex_1\obj\Debug\net5.0\Ex_1.genruntimeconfig.cache

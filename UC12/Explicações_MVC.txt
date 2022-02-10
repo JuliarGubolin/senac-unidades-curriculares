@@ -1,0 +1,21 @@
+O MVC significa: model, controller e view
+
+Model: trabalha a questão da orientação de objetos
+- Classe conta: validação de contas
+- Precisa acessar a view
+
+Controller: gerencia os objetos criados no Model (Para adicionar, podemos ir em Adicionar>Controlador ou em Adicionar> Novo Item> Controlador MVC - vazio)
+- Controla sempre uma área (/home)
+- Criamos a rota (/autenticacao) de controle que herda da classe Controller
+- Faz com que seja acessada uma View
+- Para cada rota preciso de uma pasta na View (Autenticacao)
+
+View: 
+- Adicionar > Exibição Razor - Vazia
+- View para a autenticação: além de criar a pasta, precisamos que ela tenha o mesmo nome no controller da autenticação, no cado Index
+- Para colocar um código C#, utilizar @
+
+Tutoriais:
+https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0&tabs=visual-studio
+https://asp.mvc-tutorial.com/
+https://www.learnrazorpages.com/asp-net-core

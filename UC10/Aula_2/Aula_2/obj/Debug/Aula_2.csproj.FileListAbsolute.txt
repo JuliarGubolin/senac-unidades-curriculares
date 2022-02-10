@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\bin\Debug\Aula_2.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\bin\Debug\Aula_2.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\bin\Debug\Aula_2.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.Principal.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_2\Aula_2\obj\Debug\Aula_2.pdb

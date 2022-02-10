@@ -1,0 +1,16 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\Aula9.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\Aula9.deps.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\Aula9.runtimeconfig.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\Aula9.runtimeconfig.dev.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\Aula9.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\ref\Aula9.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\bin\Debug\net5.0\Aula9.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.csprojAssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.AssemblyInfoInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.AssemblyInfo.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\ref\Aula9.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Materiais_Aulas\Aula9\obj\Debug\net5.0\Aula9.genruntimeconfig.cache

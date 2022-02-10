@@ -1,0 +1,271 @@
+﻿@import url('../lib/font-awesome/webfonts/fa-brands-400.ttf');
+
+body {
+    background-color: rgb(255, 246, 234);
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(219, 198, 219);
+    padding: 0%;
+}
+
+    .topo .logo {
+        width: 300px;
+        margin-top: 0 auto;
+    }
+
+    .topo p {
+        margin-top: 0%;
+        color: rgb(146, 144, 144);
+        font-family: 'Merienda One', cursive;
+    }
+
+    .topo h1 {
+        margin-bottom: 1%;
+        font-family: 'Merienda One', cursive;
+        text-align: center;
+    }
+
+    .topo div {
+        width: 100%;
+    }
+
+        .topo div img {
+            width: 20px;
+            float: right;
+            padding: 11px;
+        }
+
+        .topo div input {
+            padding: 5px;
+            margin: 5px;
+        }
+/*Deixar o menu no centro (texto)*/
+.menu {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+    /*Largura, altura do menu*/
+    .menu ul {
+        padding: 8px;
+        margin: 0px;
+        background-color: #EDEDED;
+        list-style: none;
+    }
+        /*Lista em linha*/
+        .menu ul li {
+            display: inline;
+        }
+            /*Estilização do link*/
+            .menu ul li a {
+                padding: 8px 60px;
+                display: inline-block;
+                /* visual do link */
+                background-color: #EDEDED;
+                color: rgb(99, 99, 99);
+                text-decoration: none;
+                border-bottom: 3px solid #EDEDED;
+            }
+                /*Quando passar por cima dos itens do menu*/
+                .menu ul li a:hover {
+                    color: #4e4e4e;
+                    border-bottom: 2px solid #929191;
+                }
+
+.portifolio {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+    .portifolio div img {
+        width: 400px;
+        height: 300px;
+    }
+
+.rodape {
+    background-color: rgb(219, 198, 219);
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    padding: 10px;
+}
+
+.botoes {
+    text-align: center;
+    margin: 2%;
+}
+
+    .botoes button {
+        background-color: rgb(219, 198, 219);
+        border-color: rgb(165, 49, 165);
+        border-radius: 10px;
+        padding: 1%;
+        margin: 1%;
+        cursor: pointer;
+        font-family: 'Merienda One', cursive;
+    }
+
+#newborn {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+#texto {
+    background-color: rgb(224, 215, 203);
+}
+
+.tituloport {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+}
+
+#titulo {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+.contato h1 {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    font-size: 30px;
+}
+
+form {
+    background-color: rgb(219, 198, 219);
+    max-width: 500px;
+    margin: 0 auto;
+    /*topo, lados e abaixo*/
+    padding: 0 10px 10px 10px;
+    font-family: 'Merienda One', cursive;
+}
+
+.contato .entrada input, textarea {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.entradas button {
+    background-color: rgb(219, 198, 219);
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-family: 'Merienda One', cursive;
+    cursor: pointer;
+    /*display: center;*/
+}
+
+.entradas {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(231, 223, 231);
+    font-family: 'Merienda One', cursive;
+    border-radius: 10px;
+}
+
+#rodape {
+    background-color: rgb(219, 198, 219);
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    padding: 10px;
+}
+
+#arrumaTexto p {
+    text-align: justify;
+}
+
+#biografiaimg {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(231, 223, 231);
+}
+
+#imagemteste {
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 50px;
+}
+
+#titulo1 {
+    /*text-align: center;*/
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    float: right;
+}
+
+#subtitulo {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+/*Galeria texto*/
+.how-section1 {
+    margin-top: -15%;
+    padding: 10%;
+}
+
+    .how-section1 h4 {
+        color: #ffa500;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .how-section1 .subheading {
+        color: #3931af;
+        font-size: 20px;
+    }
+
+    .how-section1 .row {
+        margin-top: 10%;
+    }
+
+#redes-sociais {
+    text-align: right;
+    background-color: rgb(219, 198, 219);
+}
+
+#aesquerda {
+    text-align: left;
+    padding-right: 0;
+}
+
+.btn-primary {
+    background-color: #dbc6db !important;
+}
+/*frgergregre*/
+.portfolio-menu {
+    text-align: center;
+}
+
+    .portfolio-menu ul li {
+        display: inline-block;
+        margin: 0;
+        list-style: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        -webkit-transition: all 05s ease;
+        -moz-transition: all 05s ease;
+        -ms-transition: all 05s ease;
+        -o-transition: all 05s ease;
+        transition: all .5s ease;
+    }
+
+.portfolio-item {
+    /*width:100%;*/
+}
+
+    .portfolio-item .item {
+        /*width:303px;*/
+        float: left;
+        margin-bottom: 10px;
+    }
+
+

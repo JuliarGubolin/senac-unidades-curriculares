@@ -1,0 +1,176 @@
+﻿/*GERAL*/
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+/*Header*/
+header #navegacao-menu{
+    font-size: 1.1rem;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+/*HERO*/
+.hero {
+    background-image: url(../IMG/hero.jpg);
+    background-size: cover;
+    /*100%*/
+    min-height: 90vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+}
+.hero h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    font-family: 'Red Hat Text', sans-serif;
+
+}
+    .hero .btn {
+        background-color: #D4AF37;
+        border-radius: 4px;
+        color: #fff;
+        padding: 20px 40px;
+        text-shadow: #413F3F 1px 1px 1px 1px;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+@media (max-width: 700px) {
+    hero h1{
+        font-size: 2.5rem;
+    }
+
+}
+/*Noticias*/
+.noticia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+.noticia h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #413F3F;
+    text-align:center;
+}
+.noticia hr{
+    width: 100px;
+    height: 2px;
+    background-color: #413F3F;
+    margin-bottom: 40px;
+    border: none;
+}
+/*Servicos*/
+.servico {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    text-align: center;
+    background-color: #EBEAEA;
+}
+.servico p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #000000;
+    text-align: center;
+}
+.servico .grid {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.servico .grid li {
+    padding: 0 30px;
+    align-items: center;
+}
+
+.servico .grid li i{
+   color: #D4AF37;
+   font-size: 5.2rem;
+   margin-bottom: 30px;
+}
+
+.servico .grid li h4{
+   color: #D4AF37;
+   font-size: 2.0rem;
+   margin-bottom: 30px;
+}
+.servico .grid li p{
+   color: #000000;
+}
+@media (max-width: 850px) {
+    .servico .grid{
+        flex-direction: column;
+    }
+}
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #413F3F;
+    padding: 50px 50px;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    list-style: none;
+}
+footer ul li{
+    margin-right: 15px;
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: #ffff;
+    font-size: 2rem;
+}
+footer p{
+    color: #ffff;
+    text-align: center;
+}
+/*Contatos*/
+.contatos {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    text-align: center;
+    background-color: #D4AF37;
+}
+.contatos p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #000000;
+    text-align: center;
+}
+.contatos .grid {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.contatos .grid li {
+    padding: 0 30px;
+    align-items: center;
+}
+
+.contatos.grid li i{
+   color: #D4AF37;
+   font-size: 5.2rem;
+   margin-bottom: 30px;
+}
+.contatos .grid li h4{
+   color: #D4AF37;
+   font-size: 2.0rem;
+   margin-bottom: 30px;
+}
+.contatos .grid li p{
+   color: #000000;
+}

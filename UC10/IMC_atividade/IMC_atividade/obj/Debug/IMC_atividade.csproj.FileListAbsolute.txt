@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\bin\Debug\IMC_atividade.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\bin\Debug\IMC_atividade.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\bin\Debug\IMC_atividade.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.FrmCalculoPesoIdeal.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\IMC_atividade\IMC_atividade\obj\Debug\IMC_atividade.pdb

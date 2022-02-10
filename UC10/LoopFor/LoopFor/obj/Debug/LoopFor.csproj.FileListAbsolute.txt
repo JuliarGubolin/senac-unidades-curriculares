@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\bin\Debug\LoopFor.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\bin\Debug\LoopFor.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\bin\Debug\LoopFor.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.FrmPrincipal.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\LoopFor\LoopFor\obj\Debug\LoopFor.pdb

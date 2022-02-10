@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\bin\Debug\EstruturaForEach_Vetor.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\bin\Debug\EstruturaForEach_Vetor.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\bin\Debug\EstruturaForEach_Vetor.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.FrmTurismo.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\EstruturaForEach_Vetor\EstruturaForEach_Vetor\obj\Debug\EstruturaForEach_Vetor.pdb

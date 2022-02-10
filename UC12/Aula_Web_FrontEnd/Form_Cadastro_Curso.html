@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>FutureWeb Informática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Arquivo configuração Bootstrap-->
+    <link href="bt1/bt2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bt1/bt2/docs/4.0/examples/offcanvas/offcanvas.css" rel="stylesheet" />
+    <link href="bt1/bt2/docs/4.0/examples/navbars/navbar.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Área Administrativa</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="Painel_Controle.html">Painel de Controle</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="Login.html">Sair</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+    <div class="container">
+        <div class="py-5">
+            <h2>Formulário Curso</h2>
+        </div>
+        <div class="col-md-8 order-md-1">
+            <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="nome">Nome curso *</label>
+                    <input type="text" class="form-control" id="curso" placeholder="* Obrigatório" required />
+                    <div class="invalid-feedback">
+                        O nome do curso é obrigatório!
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-md-4">
+                        <label for="area">Área</label>
+                        <select class="custom-select d-block w-100" id="area">
+                            <option value="">Selecione...</option>
+                            <option>Desenvolcimento de Sistemas&nbsp;&nbsp;</option>
+                            <option>Aplicações Web</option>
+                            <option>Mobile</option>
+                            <option>Banco de Dados</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="periodo">Período</label>
+                        <select class="custom-select d-block w-100" id="periodo">
+                            <option value="">Selecione...</option>
+                            <option>Matutino</option>
+                            <option>Vespertino</option>
+                            <option>Noturno</option>
+                        </select>
+                    </div>
+                </div>
+                <hr class="mb-4" />
+                <button class="btn btn-primary" type="submit">Pesquisar</button>
+                <button class="btn btn-primary" type="submit">Salvar</button>
+                <button class="btn btn-primary" type="submit">Editar</button>
+                <button class="btn btn-primary" type="submit">Excluir</button>
+            </form>
+            <hr class="mb-4" />
+            <a href="Painel_Controle.html"><button class="btn btn-primary" type="button">Cancelar</button></a>
+        </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2017/2021 FutureWeb</p>
+        </footer>
+    </div>
+</body>
+</html>

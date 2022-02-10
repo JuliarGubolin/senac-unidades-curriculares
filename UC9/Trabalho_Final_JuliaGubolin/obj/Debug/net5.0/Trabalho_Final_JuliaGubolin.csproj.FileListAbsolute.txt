@@ -1,0 +1,16 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\Trabalho_Final_JuliaGubolin.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\Trabalho_Final_JuliaGubolin.deps.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\Trabalho_Final_JuliaGubolin.runtimeconfig.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\Trabalho_Final_JuliaGubolin.runtimeconfig.dev.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\Trabalho_Final_JuliaGubolin.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\ref\Trabalho_Final_JuliaGubolin.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\bin\Debug\net5.0\Trabalho_Final_JuliaGubolin.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.csprojAssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.AssemblyInfoInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.AssemblyInfo.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\ref\Trabalho_Final_JuliaGubolin.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Trabalho_Final_JuliaGubolin\obj\Debug\net5.0\Trabalho_Final_JuliaGubolin.genruntimeconfig.cache

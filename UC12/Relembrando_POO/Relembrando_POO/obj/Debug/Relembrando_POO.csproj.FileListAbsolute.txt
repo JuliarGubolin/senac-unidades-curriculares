@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\bin\Debug\Relembrando_POO.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\bin\Debug\Relembrando_POO.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\bin\Debug\Relembrando_POO.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.FrmAgendar.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC12\Relembrando_POO\Relembrando_POO\obj\Debug\Relembrando_POO.pdb

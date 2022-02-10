@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Trabalho_Final_JuliaGubolin/1.0.0": {
+        "runtime": {
+          "Trabalho_Final_JuliaGubolin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Trabalho_Final_JuliaGubolin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

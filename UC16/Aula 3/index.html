@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!--Cabeçalho do documento-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 - Javascript</title>
+    <style>
+        article{
+            text-align: center;
+        }
+        .corTexto{
+            color: indianred;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+    <!--Cabeçalho da página-->
+    <header style="background-color: blueviolet; width: 100%; height: 60px; ">
+        <h1 style="text-align: center; margin-top: 0;">Artigos</h1>
+    </header>
+    <section style="background-color: rgb(137, 139, 218); height: 300px;">
+        <!--Quadrado que delimita área-->
+        <!--Testando styles-->
+        <fieldset style="width: 20%;">
+            <!--Legenda do fielset-->
+            <legend style="color: navy;">Cadastro de artigo</legend>
+            <textarea id="txtArtigo" rows="10" cols="30"></textarea>
+            <br>
+            <button onclick="salvaArtigo()">Salvar</button>
+            <button onclick="exibir()">Exibir</button>
+        </fieldset>
+        <article id="artigo"></article>
+    </section>
+    <script>
+        //Escopo global
+        //Array de artigos
+        var listaArtigos = [];
+
+        function salvaArtigo(){
+            //alert("Executou o evento de click do botão.");
+            //Variável dentro de uma função deve ser var ou const
+            //let quando vc vai modificar o valor salvo
+            //Pegar o elemento na página
+            let txtArtigo = document.getElementById("txtArtigo");
+            let artigo = document.getElementById("artigo");
+            //Sempre pega o tamanho da lista
+            let indice = listaArtigos.length;
+            if(indice == 0){
+                listaArtigos[0] = txtArtigo.value;
+            }
+            listaArtigos[indice] = txtArtigo.value;
+            alert("Salvo com sucesso.");
+        }
+        function exibir(){
+            //Criar uma nova sessao
+            const sessao = document.createElement("section");
+            for(var i=0; i<listaArtigos.length;i++){
+                //Cria um parágrafo
+                const paragrafo = document.createElement("p");
+                paragrafo.textContent = listaArtigos[i];
+                sessao.appendChild(paragrafo);
+                paragrafo.setAttribute("class", "corTexto");
+            }
+            const titulo = document.createElement("h1");
+            titulo.innerHTML = "Artigos salvos";
+            sessao.appendChild(titulo);
+            artigo.appendChild(titulo);
+            artigo.appendChild(sessao);
+        }
+    </script>
+</body>
+</html>

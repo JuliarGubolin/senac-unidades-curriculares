@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			FutureWeb Informática - Contato
+		</title>
+		<link rel="stylesheet" type="text/css" href="recursos/font/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		
+	</head>
+	<body>
+		<header id="cabecalho">
+			<h1 class="bloco-esquerdo">
+				FutureWeb
+				<small>desenvolvimento web e novas tecnologias</small>
+			</h1>
+			<nav class="bloco-direito">
+				<ul>
+				<li>
+                	<a href="index.html">home</a>
+                </li>
+                <li>
+                	<a href="sobre.html">sobre nós</a>
+                </li>
+                <li>
+                	<a href="servico.html">serviços</a>
+                </li>
+                <li>
+                	<a href="contato.html">contato</a>
+                </li>
+				</ul>
+			</nav>
+		</header>
+		<main id="contato">
+			<section id="mapa">
+				<!-- API com script do mapa -->
+				<script>
+					function ExibirMapa(){
+						var mapCanvas = document.getElementById("mapa");
+						var mapOptions = {
+							center: new google.maps.LatLng(-20.813865,-49.3794827),
+							zoom:10
+						}
+						var map = new google.maps.Map(mapCanvas, mapOptions);
+					}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?callback=ExibirMapa"></script>
+				
+			</section>
+			
+			<section class="bloco-esquerdo">
+				<h2>
+					Faça o seu orçamento sem compromisso
+				</h2>
+				<form method="post" action="pagina.html">
+					<fieldset>
+						<legend>Dados Pessoais</legend>
+						<label>Nome</label>
+						<input type="text" name="nome" placeholder="Digite aqui seu nome" required size="50" maxlength="100"/>
+						<label>E-Mail</label>
+						<input type="email" name="email" placeholder="Digite aqui o seu email" required size="50" maxlength="100"/>
+						<label>Telefone</label>
+						<input type="tel" name="telefone" placeholder="(99) 9999-9999 ou (99) 99999-9999" required size="30" maxlength="30"/>
+						
+					</fieldset>
+					<fieldset>
+						<legend> Dados do Projeto</legend>
+						<label>Site</label>
+						<input type="url" name="site" placeholder="Digite aqui a url do site" size="50" maxlength="100"/>
+						<label>Quantidade de páginas</label>
+						<input type="number" name="quantidade-paginas" min="1" max="999" value="1"/>
+						<label>Prazo de entrega (meses)</label>
+						<input type="number" name="prazo-entrega" min="1" max="12" value="1"/>
+						<label>Investimentos (R$)</label>
+						<input type="range" name="investimento" id="txtInvestimento" oninput="valorinvestimento.value = txtInvestimento.value" min="0" max="99000" step="100"/>
+						<output name="valorinvestimento">0</output>
+						<label>Data de inicio</label>
+						<input type="date" name="inicio" min="2016-09-09" max="2017-12-31"/>
+						<label>Data de termino</label>
+						<input type="date" name="termino" min="2016-10-09" max="2018-01-31"/>
+						<label>Hora para contato</label>
+						<input type="time" name="hora-contato" min="08:00:00" max="18:00:00"/>
+						<label>Cor preferencial</label>
+						<input type="color" name="cor"/>
+						<label>Serviços desejados</label>
+						<select name="serviços" multiple>
+							<option value="1">Web</option>
+							<option value="2">SEO</option>
+							<option value="3">Sistemas</option>
+							<option value="4">E-Commerce</option>
+							<option value="5">E-mail Marketing</option>
+							<option value="6">E-Learning</option>
+						</select>
+					</fieldset>
+					
+					<fieldset>
+						<legend>Dados de cobrança</legend>
+						<label>CEP</label>
+						<input type="text" name="cep" size="50" maxlength="9" pattern="[\d]{5}(-[\d]{3})"
+							placeholder="Digite o seu cep: 0000-000" />
+						<label>Número de parcelas</label>
+						<input type="number" name="parcelas" min="1" max="12" />
+						<label>Forma de pagamento</label>
+						<datalist id="dltPagamento">
+							<option value="Dinheiro">Dinheiro</option>
+							<option value="Cartão débito">Cartão de débito</option>
+							<option value="Cartão Crédito">Cartão de crédito</option>
+							<option value="Cheque">Cheque</option>
+							<option value="Boleto">Boleto</option>
+						</datalist>
+						<input type="text" name="forma-pagamento" list="dltPagamento" />
+						<label>Observação</label>
+						<textarea name="observacao" cols="50" rows="10">
+						</textarea>
+						<label>Confirmo as informações acima descritas?</label>
+						<input type="checkbox" name="confirma" value="sim" checked />
+						<keygen id="keySeguranca" name="seguranca" challenge="chave ciptografada" keytype="RSA" />
+					</fieldset>
+					<input type="submit" name="Enviar" value="Enviar" />
+					<input type="reset" name="Limpar" value="Limpar" />
+					
+				</form>
+				
+			</section>
+			<aside class="bloco-direito">
+				<h3>
+					<i class="fa fa-map-marker"></i>
+					Endereço
+				</h3>
+				<address>
+					<p>
+						Vila Santa Cruz, R. Jorge Tibiriça, 3518 - Vila Santa Cruz,
+						São José do Rio Preto - SP, 15014-040
+					</p>
+					<p>
+						<label>E-Mail</label>
+						<a href="mailto:contato@futureweb.com.br">contato@futureweb.com.br</a>
+					</p>
+					<p>
+						<label>Telefone</label>
+						<a href="tel:1733333333">(17) 3333-3333</a>
+					</p>
+				</address>
+					
+			</aside>
+		</main>
+		
+		<footer id="rodape" class="bloco-realinha">
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">home</a>
+					</li>
+					<li>
+						<a href="sobre.html">sobre nós</a>
+					</li>
+					<li>
+						<a href="servico.html">serviços</a>
+					</li>
+					<li>
+						<a href="contato.html">contato</a>
+					</li>
+				</ul>
+			</nav>
+			<small><i>Curso HTML/CSS3 Senac São José do Rio Prerto - SP</i></small>
+		</footer>
+	</body>
+
+</html>

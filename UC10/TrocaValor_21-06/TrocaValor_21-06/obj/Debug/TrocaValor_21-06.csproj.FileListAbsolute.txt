@@ -1,0 +1,13 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\bin\Debug\TrocaValor.resx
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\bin\Debug\TrocaValor.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\bin\Debug\TrocaValor.Designer.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\bin\Debug\TrocaValor_21-06.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\bin\Debug\TrocaValor_21-06.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\bin\Debug\TrocaValor_21-06.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21-06.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21_06.FrmTrocaValor.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21_06.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21-06.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21-06.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21-06.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\TrocaValor_21-06\TrocaValor_21-06\obj\Debug\TrocaValor_21-06.pdb

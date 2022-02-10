@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gubolin &amp; Pedroso</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <!--Bibliotecas necessárias-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/lib/magnific-popup/magnific-popup.min.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!--Icone do topo da página-->
+    <link rel="apple-touch-icon" sizes="57x57" href="~/IMG/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/IMG/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/IMG/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/IMG/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/IMG/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/IMG/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/IMG/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/IMG/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/IMG/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/IMG/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/IMG/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/IMG/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/IMG/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#848484">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#848484">
+    <!--Arquivo css-->
+    <link rel="stylesheet" href="~/css/estilo.css" />
+</head>
+<body>
+    <header id="cabecalho" class="navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <nav id="navegacao" class="navbar navbar-expand-lg">
+                <a class="navbar-brand nav-menu" href="#heros">
+                    <img src="IMG/Logo.png" width="130" height="60" class="d-inline-block align-top" alt="logotipo Gubolin Pedroso">
+                    <h1 class="d-none">
+                        Gubolin &amp; Pedroso <br>
+                        <small>Advogados Associados</small>
+                    </h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegacao-menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navegacao-menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav nav justify-content-end w-100">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link nav-menu" href="#noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link nav-menu" href="#empresas">Empresa</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link nav-menu" href="#sobrenos">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <section class="mb-2">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/gubolin.pedroso" role="button" target="_blank">
+                <i class="fab fa-facebook-f " style="font-size:24px"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/gubolinpedroso?utm_medium=copy_link" target="_blank">
+                <i class="fab fa-instagram" style="font-size:24px"></i>
+            </a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/marcos-alberto-gubolin-24951a20a" target="_blank">
+                <i class="fab fa-linkedin-in" style="font-size:24px"></i>
+            </a>
+
+        </section>
+        <img src="IMG/Logo.png" width="200" height="80" class="mb-3" />
+        <p>Todos os direitos reservados &copy; Gubolin Pedroso</p>
+    </footer>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="~/lib/font-awesome/js/all.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="~/lib/owlcarousel2/owl.carousel.js"></script>
+    <script src="~/js/javascript.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Relembrando_csharp/1.0.0": {
+        "runtime": {
+          "Relembrando_csharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Relembrando_csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

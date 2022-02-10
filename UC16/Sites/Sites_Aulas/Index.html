@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<!--Para evitar que a página fique carregando, vamos colocar o javascript no corpo-->
+<body>
+    <h1>Calculadora de média dos alunos</h1>
+    <h2>Suas notas, média e status estão abaixo</h2>
+
+    <script type="text/javascript">
+        var documento = document;
+        var navegador = window;
+
+        documento.title = "Calculadora";
+        /*navegador.alert("Teste");*/
+        var nota1 = window.prompt("Nota 1: ");
+        documento.writeln("<p> Nota 1: " + nota1 + "</p>");
+        var nota2 = window.prompt("Nota 2: ");
+        documento.writeln("<p> Nota 2: " + nota2 + "</p>");
+        var nota3 = window.prompt("Nota 3: ");
+        documento.writeln("<p> Nota 3: " + nota3 + "</p>");
+        var nota4 = window.prompt("Nota 4: ");
+        documento.writeln("<p> Nota 4: " + nota4 + "</p>");
+        var media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + parseFloat(nota4)) / 4;
+        documento.writeln("<p><b>Media: " + media + "</b></p>");
+        var result = "";
+        if (media >= 7) {
+            result = "aprovado.";
+        } else
+        {
+            result = "reprovado.";
+        }
+        documento.writeln("Você está <b>"+result+"</b>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Future Web Informática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Arquivo configuração Bootstrap-->
+    <link href="bt1/bt2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="bt1/bt2/docs/4.0/examples/offcanvas/offcanvas.css" rel="stylesheet" />
+    <link href="bt1/bt2/docs/4.0/examples/navbars/navbar.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body class="bg-light">
+    <!--Acrescentar Alunos-->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Área Administrativa</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="Painel_Controle.html">Painel de Controle</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="Login.html">Sair</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <!---->
+    <div class="container">
+        <div class="py-5">
+            <h2>Formulário Cadastro Aluno</h2>
+        </div>
+        <div class="col-md-8 order-md-1">
+            <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="nome">Nome Completo *</label>
+                    <input type="text" class="form-control" id="nome" placeholder="* Obrigatório" required />
+                    <div class="invalid-feedback">
+                        O nome completo é obrigatório!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="usuario">Nome de usuário</label>
+                    <input type="text" class="form-control" id="usuario" />
+                </div>
+                <div class="mb-3">
+                    <label for="email">Email<span class="text-muted">(Opcional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="seunome@exemplo.com" />
+                </div>
+                <div class="mb-3">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" />
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" />
+                    </div>
+
+                    <div class="col-md-5 mb-3">
+                        <label for="estado">Estado</label>
+                        <select class="custom-select d-block w-100" id="estado">
+                            <option value="">Selecione...</option>
+                            <option>São Paulo</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Minas Gerais</option>
+                            <option>Paraná</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cep">CEP</label>
+                        <input type="text" class="form-control" id="cep" placeholder="00000-00" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="curso">Curso</label>
+                        <select class="custom-select d-block w-100" id="curso">
+                            <option value="">Selecione...</option>
+                            <option></option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="curso">Período</label>
+                        <select class="custom-select d-block w-100" id="curso">
+                            <option value="">Selecione...</option>
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <hr class="mb-4" />
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="endcontato" />
+                    <label class="custom-control-label" for="endcontato">Este Endereço é para contato</label>
+                </div>
+                <hr class="mb-4" />
+                <button class="btn btn-primary" type="submit">Pesquisar</button>
+                <button class="btn btn-primary" type="submit">Salvar</button>
+                <button class="btn btn-primary" type="submit">Editar</button>
+                <button class="btn btn-primary" type="submit">Excluir</button>
+            </form>
+            <hr class="mb-4" />
+            <a href="Painel_Controle.html"><button class="btn btn-primary" type="submit">Cancelar</button></a>
+        </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2017-2021 Future Web</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section id="destaques">
+    <div id="destaques-banners" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#destaques-banners" data-slide-to="0" class="active"></li>
+            <li data-target="#destaques-banners" data-slide-to="1"></li>
+            <li data-target="#destaques-banners" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="http://lorempixel.com/1920/780/" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="h1">Título 1</h2>
+                    <p class="lead">Descrição 1</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="http://lorempixel.com/1920/780/" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="h1">Título 2</h2>
+                    <p class="lead">Descrição 2</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="http://lorempixel.com/1920/780/" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="h1">Título 3</h2>
+                    <p class="lead">Descrição 3</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#destaques-banners" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#destaques-banners" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+</section>
+<section id="sobre-nos" class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="h1 text-center font-weight-bold mt-5">
+                    Técnico em informática
+                    <span class="lead d-block mt-3 mb-5 text-uppercase">
+                        Turma 46
+                    </span>
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <div class="card mb-4">
+                    <img class="card-img-top w-100" src="http://lorempixel.com/1920/780/" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Visitar
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Texto do modal
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <img class="card-img-top w-100" src="http://lorempixel.com/1920/780/" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Turma</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="alunos" class="pt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="h1 text-center font-weight-bold mt-5">
+                    Alunos
+                </h2>
+            </div>
+        </div>
+        <div class="owl-carousel">
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+            <div>
+                <a href="http://lorempixel.com/500/500/" class="image-link">
+                    <img class="w-100 img-thumbnail rounded-circle" src="http://lorempixel.com/500/500/" alt="imagem" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <h2>Galeria</h2>
+    <i class="fas fa-basketball-ball fa-10x text-primary"></i>
+    <img src="img/bola.svg" class="w-25" alt="bola" />
+</section>

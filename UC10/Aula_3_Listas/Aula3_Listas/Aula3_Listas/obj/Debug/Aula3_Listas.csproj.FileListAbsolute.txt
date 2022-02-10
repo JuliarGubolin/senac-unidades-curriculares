@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\bin\Debug\Aula3_Listas.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\bin\Debug\Aula3_Listas.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\bin\Debug\Aula3_Listas.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.frmPrincipal.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\Aula_3_Listas\Aula3_Listas\Aula3_Listas\obj\Debug\Aula3_Listas.pdb

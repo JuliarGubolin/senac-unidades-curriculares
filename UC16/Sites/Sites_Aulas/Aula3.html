@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Aula 3</title>
+    <style>
+        article{
+            text-align: center;
+        }
+        .cortexto{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Artigos</h1>
+    </header>
+    <section>
+        <fieldset>
+            <legend class="cortexto">Cadastro de artigos da web</legend>
+            <textarea id="txtArtigo" rows="10" cols="50"></textarea>
+            <textarea id="copiaItens" rows="10" cols="30"></textarea>
+            <button onclick="salvaArtigo()">Salva</button>
+            <button onclick="exibeArtigo()">Exibe</button>
+        </fieldset>
+        <article id="artigo"></article>
+    </section>
+    <script>
+        //Escopo global
+        //Array de artigos
+        var listaArtigos = [];
+        var artigo = document.getElementById("artigo");
+        var txtArtigo = document.getElementById("txtArtigo");
+
+        //Escopo local
+        function salvaArtigo() {
+            //alert("Executou o evento de click do botão");
+            //Pegar o elemento na página
+            //Quantidade de elementos que estão armazenados no array
+            let indice = listaArtigos.length;
+            //Verifica a quantidade
+            if (indice == 0) {
+                listaArtigos[0] = txtArtigo.value;
+            }
+            listaArtigos[indice] = txtArtigo.value;
+            alert("Salvo com sucesso");
+        }
+
+        function exibeArtigo() {
+            /*copiaItens.value = "";
+            //let copiaItens = document.getElementById("copiaItens");
+            for (let i = 0; i < listaArtigos.length; i++) {
+                copiaItens.value += listaArtigos[i] + '\r\n';
+            }*/
+            const sessao = document.createElement('section');
+            for(var i=0; i< listaArtigos.length; i++){
+                const paragrafo = document.createElement(p);
+                paragrafo.texContent = listaArtigos[i];
+                paragrafo.setAttribute('id', );
+                if(i==1){
+                    paragrafo.setAttribute('class', 'cortexto');
+                }
+                sessao.appendChild(paragrafo);
+            }
+            artigo.appendChild(sessao);
+        }
+    </script>
+
+</body>
+</html>

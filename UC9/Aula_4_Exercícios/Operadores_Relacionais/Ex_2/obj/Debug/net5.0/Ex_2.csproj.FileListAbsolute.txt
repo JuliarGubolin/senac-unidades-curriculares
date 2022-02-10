@@ -1,0 +1,16 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\Ex_2.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\Ex_2.deps.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\Ex_2.runtimeconfig.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\Ex_2.runtimeconfig.dev.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\Ex_2.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\ref\Ex_2.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\bin\Debug\net5.0\Ex_2.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.csprojAssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.AssemblyInfoInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.AssemblyInfo.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\ref\Ex_2.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_4_Exercícios\Operadores_Relacionais\Ex_2\obj\Debug\net5.0\Ex_2.genruntimeconfig.cache

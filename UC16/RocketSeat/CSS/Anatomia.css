@@ -1,0 +1,48 @@
+/*
+    É uma linguagem para estilizar o HTML
+    Comentários são feitos assim
+    Desabilitam partes do seu código
+*/
+/*Anatomia do CSS*/
+h1 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+/* Neste caso: 
+Selector: h1
+Declaration: tudo
+Properties: color, font-size, background
+Property Value: o valor que color, font-size, background recebe
+*/
+
+/*
+    Selectors
+    Conecta um elemento HTML com o CSS
+    - Tipos:
+        Global selector: *
+        Element/Type selector: h1, h2, p, div
+        ID Selector: #box, #nome
+        Class Selector: .red, .m-4
+        Atribute selector, Pseudo-class, pseudo-element, e outros
+*/
+
+/*
+Adicionando CSS a um arquivo HTML
+Existem 4 formas:
+
+## inline
+
+## <style>
+
+## <link>
+
+## @import
+-> Pasta Esudando-CSS
+*/
+
+
+
+
+

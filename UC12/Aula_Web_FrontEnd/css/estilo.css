@@ -1,0 +1,323 @@
+/* Documento CSS */
+/* Configuração de Fonte */
+@font-face{
+	font-family: 'Space Age';
+	src: url('spaceage.eot');
+	src: url('spaceage.ttf') format('truetype'); /*para outros browser*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	background-color: #f1f1f1; /* navegadores antigos */
+	background: #ffffff; /*FF3.6-15*/
+	background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);/*Chrome 10-25,Safari5.1-6*/
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);/*W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/
+	background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /*IE6-9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+	font-family: Arial, Tahoma, Alegreya-sc, 'Times New Roman';
+	font-size: 16px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#cabecalho {
+	background-color: rgba(204, 204, 204, 0.3);
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+}
+
+#cabecalho h1 {
+	font-family: 'Space Age';
+	font-size: 46px;
+	color: #ffffff;
+	text-shadow: 3px 3px 3px #333333;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#cabecalho h1 small{
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	color: #000000;
+	font-style: italic;
+	text-shadow: none;
+	width: 100%;
+	display: block;
+}
+
+.bloco-esquerdo{
+	display: block;
+	float: left;
+}
+
+nav {
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+.bloco-direito{
+	display: block;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 5px;
+}
+
+nav ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+	transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	border-radius: 5px;
+}
+
+nav ul li a:hover{
+	background-color: #f1f1f1;
+	color: #333333;
+}
+
+#anuncio {
+	background: #4b403e url(../imagens/banner.jpg) center center no-repeat;
+	text-align: center;
+	height: 500px;
+	vertical-align: middle;
+	padding-top: 150px;
+}
+
+.bloco-realinha{
+	clear: both; 
+}
+
+#anuncio h2 {
+	font-size: 100px;
+	color: #ffffff;
+	line-height: 150px;
+}
+
+#anuncio article{
+	line-height: 32px;
+}
+
+#anuncio article h3 {
+	font-size: 48px;
+	color: #cccccc;
+}
+
+#anuncio article p {
+	margin: 20px auto;
+	width: 800px;
+	color: #ffffff;
+	background-color: rgba(0,0,0, 0.5);
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#anuncio article a{
+	padding: 10px;
+	background-color: #f5f5f5;
+	width: auto;
+	text-decoration: none;
+	font-weight: 900;
+	color: #333333;
+	border-radius: 50px;
+	height: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+#anuncio article a:hover{
+	background-color: #cccccc;
+	color: #000000;
+}
+
+#destaque{
+	width: 100%;
+	text-align: center;
+}
+
+#destaque article img {
+	width: 100%;
+}
+
+article h3 {
+	margin-bottom: 20px;
+}
+
+.efeito-opacidade:hover{
+	background: rgba(0,0,0,0.5);
+	opacity: 0.5;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #4b403e;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #211c1b;
+	text-shadow: 1px 1px 1px; 
+}
+
+article p{
+	height: 120px;
+}
+
+#destaque h2, #sobre h2, #servico h2, #contato h2 {
+	display: block;
+	line-height: 50px;
+	padding: 10px;
+	margin: 0 20px 20px 20px;
+	border-bottom: #cccccc 1px dashed;
+}
+
+#destaque article, #servico article{
+	width: 30%;
+	padding: 1.6%;
+	text-align: center;
+}
+
+#destaque article:nth-child(2n+2){
+	background-color: #cccccc;
+}
+
+#rodape {
+	background-color: #4b403e;
+	padding: 5px 10px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#rodape small {
+	margin-top: 40px;
+	display: block;
+}
+
+#sobre video, #servico iframe, #contato #mapa{
+	width: 100%;
+	height: 500px;
+	background-color: #000000;
+	padding-top: 107px;
+}
+
+#sobre section, #servico section, #contato section{
+	width: 70%;
+}
+
+#sobre article, #servico article{
+	padding: 10px 20px;
+	text-align: justify;
+	background-color: #cccccc;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+#sobre article h3, #servico article h3{
+	display: block;
+	padding: 10px;
+	background-color: #4b403e;
+	color: #ffffff;
+}
+
+#sobre aside, #servico aside, #contato aside{
+	width: 28%;
+	margin: 1%;
+}
+
+aside h3{
+	padding: 10px;
+}
+
+aside ul{
+	padding: 10px;
+}
+
+aside ul li{
+	font-size: 14px;
+	list-style: none;
+	line-height: 32px;
+	border-bottom: #cccccc dashed 1px;
+}
+
+aside ul li a{
+	text-transform: capitalize;
+}
+
+aside ul li audio{
+	width: 100%;
+	margin: 0 10px;
+}
+
+img {
+	width: 100%;
+}
+
+#contato form {
+	margin: 20px;
+}
+
+#contato form fieldset{
+	padding: 20px;
+	margin-top: 10px;
+	border: #cccccc dashed 1px;
+}
+
+#contato form label{
+	width: 100%;
+	display: block;
+	margin: 5px 0;
+}
+
+#contato form input, #contato form textarea{
+	padding: 10px;
+	border-radius: 2px;
+	border: #cccccc solid 1px;
+}
+
+#contato form input[type='text'],
+#contato form input[type='email'],
+#contato form input[type='tel'],
+#contato form input[type='url'],
+textarea{
+	width: 97%;
+}
+
+#contato form fieldset Legend{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}
+
+#contato form input[type='submit'],
+#contato form input[type='reset'] {
+	margin: 10px;
+}
+
+#contato aside address {
+	font-style: normal;
+	line-height: 24px;
+}
+
+#contato aside address a{
+	font-size: 18px;
+}

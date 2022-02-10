@@ -1,0 +1,59 @@
+﻿.container{
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    /*Deixa os itens em linha*/
+    flex-direction: row /*column, row-reverse (linha no canto direito) e column-reverse (de cima para baixo)*/;
+    /*Quebra de linha ou não conforme o tamanho*/
+    flex-wrap: nowrap /*(wrap, wrap-reverse)*/;
+    /*Forma resumida dos itens acima*/
+    flex-flow: row wrap-reverse;
+    /*Alinhamento horizontal*/
+    justify-content: flex-start /*flex-end: alinhamento na direita, center, space-between, space-around*/;
+    /*Alinhamento vertical*/
+    align-items: stretch/*Itens crescem igualmente*//*flex-start (alinha no topo) flex-end (na base) center (centro), baseline (alinhamento baseado no conteúdo)*/ ;
+    /*Alinhamento vertical quando os itens estiverem em multiline (wrap)*/
+    align-content: flex-start /*(flex-end, center, space-between, space-around(espaçamento mais ao centro), stretch)*/ ;
+}
+
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    /*Esta relacionado com a largura dos itens*/
+    /*Com esta 1, todos os itens vão tentar ficar do mesmo tamanho*/
+    flex-grow: 0;
+    flex-shrink: 1;
+    /*Largura inicial dos itens*/
+    flex-basis: 20px;
+    /*Maneira resumida dos itens anteriores*/
+    flex: 1 1 300px;
+}
+
+/*Aula 3: como manipular os itens dentro do container com flexbox*/
+.article-01{
+    /*Article 01 ocupa 3x mais o espaço do que os outros itens*/
+   /*flex-grow: 3;*/
+   /*Asume um tamanho 3x menor que os demais*/
+   flex-shrink: 3;
+    /*order: 3;*/
+}
+.article-02 {
+    /* order: 1;
+    align-self: center /*(flex-start, flex-end, stretch, valor padrão: auto, baseline);*/
+}
+.article-03 {
+    /*order: 2;*/
+}
+.article-04 {
+   /* order: 4;*/
+}
+
+/*Baseline
+.article-01{
+    padding-top: 40px;
+    background-color: red;
+}*/

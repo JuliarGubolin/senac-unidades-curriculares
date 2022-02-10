@@ -1,0 +1,28 @@
+/*var nomes, emails, assuntos, mensagens;
+        var infos = [], i=0;
+        function Contato(nome, email, assunto, mensagem){
+            this.nome = nome;
+            this.email = email;
+            this.assunto = assunto;
+            this.mensagem = mensagem;
+        }
+        function salvar(){
+            nomes = document.getElementById("nome").value;
+            emails = document.getElementById("email").value;
+            assuntos = document.getElementById("assunto").value;
+            mensagens = document.getElementById("mensagem").value;
+            console.log(nomes, emails, assuntos, mensagens);
+            var dd = new Contato(nomes, emails, assuntos, mensagens);
+            infos[i] = dd;
+            console.log(infos[i]);
+            i++;
+        }
+        function mostrarDados(){
+            const parte = document.getElementById("dados");
+            for(var j=0;j<i;j++){    
+                const p1 = document.createElement("p");
+                p1.innerHTML = infos[j];
+                parte.appendChild(p1);
+                parte.setAttribute("class", "entradas");
+            }
+        }*/

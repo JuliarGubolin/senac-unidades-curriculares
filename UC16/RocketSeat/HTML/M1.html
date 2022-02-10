@@ -1,0 +1,109 @@
+<!--O que é o HTML?
+	Hipertext Markup Language
+	Clicar em ver código fonte de uma página, você verá html
+-->
+<h1>Um título de página</h1>
+<!--
+	Anatomia das Tags
+
+	-Abertura de Tag
+	-Fechamento de tag
+	-Conteúdos
+	-Elementos
+-->
+<!--Um título em HTML-->
+<!--Isso é um Tag-->
+<h1></h1>
+<!--Elementos vazios-->
+<!--<img src="" alt="">-->
+<!--Elemento vazio de entrada de dados-->
+<!--<input type="text">-->
+<!--Elementos HTML possuem ATRIBUTOS-->
+<!--Atributos são informações extras ou configurações
+	Ex: img abaixo possui 2 atributos
+	<img src="Imagem.png" alt="Texto">
+-->
+<!--Atibutos booleanos não precisam de conteúdo-->
+<input type="text" disable>
+<!--TAG a para links na página-->
+<a href="https://google.com" target="" title="Is not">link google</a>
+<!--
+	Atributos globais mais utilizados
+	são aplicados a todas as tags
+	- class
+	- contenteditable
+	- data-*
+	- hidden
+	- id
+	- style
+	- tabindex
+	- title
+-->
+<div class="carrinho" contenteditable="true" data-qualquernomeaqui="" id="name1" style="color: red">
+	<!--Elementos aqui dentro-->
+	conteúdo
+</div>
+
+<div class="carrinho" hidden>
+	<!--Elementos aqui dentro-->
+	conteúdo
+</div>
+<!--Tab é a ordem que o tab vai andar na página-->
+<!--Title é para quando o mouse está descansando na tela-->
+<div tabindex="1" title="Definir um título">
+	<!--Elementos aqui dentro-->
+	conteúdo
+</div>
+<!--Aninhamento de tags-->
+<!--A tag EM é filha da tag P-->
+<!--A tag P não quebra a linha-->
+<p>Vou <em>aaaa</em> escrever um parágrafo</p><!--BR também quebra linhas-->
+<p>Esse é um novo <br/>parágrafo <p>AAA como quebrar a linha</p></p>
+<!--
+	Vamos Praticar
+
+	Escrever 2 parágrafos, dando ênfase e 
+	importância para algumas palavras, e adicione um link de saiba mais 
+	- Use a tag "em" para ênfase
+	- Use a tag "strong" para importância
+	- o link pode levar para o google
+-->
+<p>
+	<em>Lorem ipsum </em> dolor sit amet, consectetur adipiscing elit. 
+	Duis ut varius tellus, sed finibus sapien. Mauris posuere, lorem 
+	eleifend luctus tincidunt, diam elit sagittis magna, ut consequat 
+	turpis purus in urna. Duis bibendum ipsum quis erat cursus consequat.
+	 Maecenas vehicula, sapien in varius elementum, velit orci aliquam velit, 
+	 at fermentum justo elit bibendum justo. Suspendisse ornare tempus mauris 
+	 sed rutrum. Nunc condimentum erat ut tortor vestibulum pulvinar. Aliquam 
+	 id mi consectetur, <strong> pulvinar est id</strong>, imperdiet velit. Ut sapien est, feugiat 
+	 quis tellus nec, dictum lacinia nunc. Fusce at turpis ut elit bibendum placerat. 
+	 Suspendisse mollis, augue ut vulputate imperdiet, odio odio pretium ex, varius 
+	 vestibulum ligula ligula vitae ex. Suspendisse cursus lorem ante, id dapibus libero 
+	 dapibus vel. <br>
+	 <a href="https://google.com">Saiba mais</a>
+</p>
+<p>
+	dolor sit amet, consectetur adipiscing elit. 
+	Duis ut varius tellus, sed finibus sapien. Mauris posuere, lorem 
+	eleifend luctus tincidunt, diam elit sagittis magna, ut consequat 
+	turpis purus in urna. <b>Bold</b> Duis bibendum ipsum quis erat cursus consequat.
+	 Maecenas vehicula, sapien in varius elementum, velit orci aliquam velit, 
+	 at fermentum justo elit bibendum justo. Suspendisse ornare tempus mauris 
+	 sed rutrum. Nunc condimentum erat ut tortor vestibulum pulvinar. Aliquam
+</p>
+<!--
+	Caracteres reservados
+-->
+<p>
+	<!--Espaços no texto-->
+	&nbsp;
+	Os espaços das quebras de
+	linha são ignorados
+	<br>AAAA<br>
+	<!--Como colocar caacteres reservados no texto?-->
+	&lt; &gt;
+	&amp;
+	&quot;aspas aqui&quot;
+	&apos;aspas simples&apos;
+</p>

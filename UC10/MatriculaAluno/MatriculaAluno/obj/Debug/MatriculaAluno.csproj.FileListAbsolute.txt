@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\bin\Debug\MatriculaAluno.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\bin\Debug\MatriculaAluno.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\bin\Debug\MatriculaAluno.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.FrmMatricula.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\MatriculaAluno\MatriculaAluno\obj\Debug\MatriculaAluno.pdb

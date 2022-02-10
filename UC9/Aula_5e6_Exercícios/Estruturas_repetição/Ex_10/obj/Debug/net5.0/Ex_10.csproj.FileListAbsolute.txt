@@ -1,0 +1,16 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\Ex_10.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\Ex_10.deps.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\Ex_10.runtimeconfig.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\Ex_10.runtimeconfig.dev.json
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\Ex_10.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\ref\Ex_10.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\bin\Debug\net5.0\Ex_10.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.csprojAssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.AssemblyInfoInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.AssemblyInfo.cs
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\ref\Ex_10.dll
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC9\Aula_5e6_Exercícios\Estruturas_repetição\Ex_10\obj\Debug\net5.0\Ex_10.genruntimeconfig.cache

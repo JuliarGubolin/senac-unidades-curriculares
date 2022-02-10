@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\bin\Debug\ExemploWhile.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\bin\Debug\ExemploWhile.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\bin\Debug\ExemploWhile.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.FrmWhile.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\ExemploWhile\ExemploWhile\obj\Debug\ExemploWhile.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4gtpbtZAShwwd2QUKfF8ZBOBRkAVjGQYljuy+SHfDgW7yr3k2fFJEjtCfvy5eeL1JjutbJLGpak07xOTvHOTnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gisla\\OneDrive\\Área de Trabalho\\SENAC\\UC11\\App_Teste_XP\\App_Teste_XP\\App_Teste_XP.iOS\\App_Teste_XP.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gisla\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

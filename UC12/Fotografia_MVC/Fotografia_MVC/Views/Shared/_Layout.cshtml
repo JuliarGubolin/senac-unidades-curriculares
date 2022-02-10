@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DC Estúdio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="~/lib/magnific-popup.js/magnific-popup.min.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <section id="redes-sociais">
+        <!-- <form action="#" method="post" style="text-align: left">
+            <input type="text" name="search" id="search" placeholder="Pesquisar..." required/>
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>-->
+        <!-- Facebook -->
+        <a class="btn btn-outline-black" href="https://www.facebook.com/" role="button" target="_blank">
+            <i class="fab fa-facebook-f fa-1x mr-2"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-black" href="https://www.instagram.com/" role="button" target="_blank">
+            <i class="fab fa-instagram fa-1x mr-2"></i>
+        </a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-black" href="https://www.linkedin.com/" role="button" target="_blank">
+            <i class="fab fa-linkedin-in fa-1x mr-2"></i>
+        </a>
+
+        <!-- Whatsapp -->
+        <a class="btn btn-outline-black" href="tel:+55176386252" role="button" target="_blank">
+            <i class="fab fa-whatsapp fa-1x mr-2"></i>
+        </a>
+
+        <a style="font-family: 'Merienda One', cursive;" class="btn btn-danger mt-2 mr-2" href="login.html">Ver suas fotos</a>
+    </section>
+    <header class="topo">
+        <img class="logo" src="img/Logo_Fotografia.png" alt="Logo Estúdio Fotográfico">
+        <h1 style="text-align: center;">DC Estúdio Fotográfico</h1>
+        <p>Estúdio especializado em fotografia feminina e de família</p>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Portifólio</a> </li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="depoimentos.html">Depoimentos</a></li>
+            <li><a href="biografia.html">Biografia</a></li>
+        </ul>
+    </nav>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="text-center text-black" id="rodape">
+        <!-- Grid container -->
+        <div class="container p-2">
+            <!-- Section: Redes Sociais -->
+            <section class="mb-2">
+                <!-- Facebook -->
+                <a class="btn btn-outline-black btn-floating m-1" href="https://www.facebook.com/" role="button" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-black btn-floating m-1" href="https://www.instagram.com/" role="button" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-black btn-floating m-1" href="https://www.linkedin.com/" role="button" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </section>
+            <!-- Section: Redes Sociais -->
+            <section class="mb-1">
+                <p>
+                    DC-Estúdio fotográfico <br>
+                    Especializado em fotografia feminina e de família <br>
+                    (17)99114-7152 <br>
+                    contato@dcestudio.com
+                </p>
+            </section>
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-black" href="index.html">DC-Estúdio</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/OwlCarousel2/owl.carousel.min.js"></script>
+    <script src="~/lib/font-awesome/js/all.min.js"></script>
+    <script src="~/lib/magnific-popup.js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

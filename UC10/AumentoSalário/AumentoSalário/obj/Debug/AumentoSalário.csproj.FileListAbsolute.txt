@@ -1,0 +1,10 @@
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\bin\Debug\AumentoSalário.exe.config
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\bin\Debug\AumentoSalário.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\bin\Debug\AumentoSalário.pdb
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.csproj.AssemblyReference.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.FrmReajuste.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.Properties.Resources.resources
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.csproj.GenerateResource.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.csproj.CoreCompileInputs.cache
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.exe
+C:\Users\gisla\OneDrive\Área de Trabalho\SENAC\UC10\AumentoSalário\AumentoSalário\obj\Debug\AumentoSalário.pdb
