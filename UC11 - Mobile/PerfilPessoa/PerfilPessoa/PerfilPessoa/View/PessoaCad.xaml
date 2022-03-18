@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PerfilPessoa.View.PessoaCad">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <StackLayout>
+                <Label Text="Informações adicionais" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="24" Margin="0,45,0,0" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Margin="20,30,0,0" Orientation="Horizontal">
+                <Entry x:Name="txtCEP" Placeholder="CEP" PlaceholderColor="#8E8E8E" Keyboard="Numeric" BackgroundColor="#FBF7F7" FontSize="16" Margin="0,0,90,0" TextColor="Black"></Entry>
+                <Button x:Name="btnCEP" BackgroundColor="#038C8C" CornerRadius="4" Text="Preencher" TextTransform="None" Padding="0,0,0,0" Margin="150,0,150,0" FontSize="16" Clicked="CEP_Clicked"></Button>
+            </StackLayout>
+            <StackLayout Margin="0,5,0,0">
+                <Label x:Name="lblEnd" Text="Logradouro:" TextColor="Black" FontSize="16" Margin="20,45,0,0" HorizontalOptions="StartAndExpand"/>
+                <Entry x:Name="txtEnd" PlaceholderColor="#8E8E8E" Keyboard="Text" BackgroundColor="#FBF7F7" FontSize="16" Margin="20,0,20,0" TextColor="Black"></Entry>
+                <Label Text="Bairro:" TextColor="Black" FontSize="16" Margin="20,10,0,0" HorizontalOptions="StartAndExpand" />
+                <Entry x:Name="txtBairro" PlaceholderColor="#8E8E8E" Keyboard="Text" BackgroundColor="#FBF7F7" FontSize="16" Margin="20,0,20,0" TextColor="Black"></Entry>
+                <Label Text="Número:" TextColor="Black" FontSize="16" Margin="20,10,0,0" HorizontalOptions="StartAndExpand"/>
+                <Entry x:Name="txtNum" PlaceholderColor="#8E8E8E" Keyboard="Numeric" BackgroundColor="#FBF7F7" FontSize="16" Margin="20,0,300,0" TextColor="Black"></Entry>
+                <Label Text="Data de nascimento:" TextColor="Black" FontSize="16" Margin="20,10,0,0" HorizontalOptions="StartAndExpand"/>
+                <Entry PlaceholderColor="#8E8E8E" Keyboard="Numeric" BackgroundColor="#FBF7F7" FontSize="16" Margin="20,0,250,0" TextColor="Black"></Entry>
+            </StackLayout>
+            <Button BackgroundColor="#038C8C" CornerRadius="4" Text="Salvar" Padding="0,0,0,0" Margin="160,70,160,0" FontSize="20" TextTransform="None" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

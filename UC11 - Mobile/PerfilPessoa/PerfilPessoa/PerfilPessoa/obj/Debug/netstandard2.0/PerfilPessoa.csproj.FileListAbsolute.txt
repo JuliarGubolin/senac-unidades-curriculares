@@ -1,0 +1,16 @@
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\bin\Debug\netstandard2.0\PerfilPessoa.deps.json
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\bin\Debug\netstandard2.0\PerfilPessoa.dll
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\bin\Debug\netstandard2.0\ref\PerfilPessoa.dll
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\bin\Debug\netstandard2.0\PerfilPessoa.pdb
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.AssemblyInfoInputs.cache
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.AssemblyInfo.cs
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.csproj.CoreCompileInputs.cache
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\XamlC.stamp
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.dll
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\ref\PerfilPessoa.dll
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.pdb
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\View\Perfil.xaml.g.cs
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\PerfilPessoa.csproj.AssemblyReference.cache
+D:\workspace\SENAC\UC11 - Mobile\PerfilPessoa\PerfilPessoa\PerfilPessoa\obj\Debug\netstandard2.0\View\PessoaCad.xaml.g.cs

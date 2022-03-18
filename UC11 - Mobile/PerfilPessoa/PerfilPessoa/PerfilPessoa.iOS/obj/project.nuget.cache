@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "79NHtJchS2XeS9M5wQFglyfPL6RLnnEUE/487z3v8nwnw6g6pJ7i/vhmCAQLcFe0Iytg0NZrPvNNk9WpH707nw==",
+  "success": true,
+  "projectFilePath": "D:\\workspace\\SENAC\\UC11 - Mobile\\PerfilPessoa\\PerfilPessoa\\PerfilPessoa.iOS\\PerfilPessoa.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gisla\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
