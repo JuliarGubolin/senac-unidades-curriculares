@@ -1,0 +1,1 @@
+D:\Projetos_VS\Unibikers.App\Unibikers.App.UWP\Unibikers.App.UWP.csproj;x86

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Unibikers.App.Models.Custom"
+             x:Class="Unibikers.App.Views.UsuarioCadastroView"
+             Title="Cadastro"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="16"
+                     VerticalOptions="CenterAndExpand" BackgroundColor="White" Margin="0,0,0,0">
+                <Label Text="Cadastro de usuário" HorizontalOptions="Center" FontSize="24" Padding="0,0,0,30" TextColor="Black" FontAttributes="Bold"/>
+                <StackLayout Padding="0,0,0,56">
+                    <local:RoundedEntry x:Name="txtNome" Text="{Binding Nome}" Placeholder="Nome" Margin="0,0,0,16" PlaceholderColor="#8E8E8E" TextColor="Black"/>
+                    <!--<DatePicker x:Name="txtDataNascimento" Date="01/01/2010" Margin="0,0,0,16" TextColor="Black" MaximumDate="01/01/2023"/>-->
+                    <local:RoundedEntry x:Name="txtDataNascimento" Placeholder="XX/XX/XXXX" Margin="0,0,0,16" PlaceholderColor="#8E8E8E" TextColor="Black" Keyboard="Numeric">
+                        <local:RoundedEntry.Behaviors>
+                            <local:MaskedEntry Mask="XX/XX/XXXX"></local:MaskedEntry>
+                        </local:RoundedEntry.Behaviors>
+                    </local:RoundedEntry>
+                        <local:RoundedEntry x:Name="txtEmail" Text="{Binding Email}" Placeholder="E-mail" Margin="0,0,0,16" PlaceholderColor="#8E8E8E" TextColor="Black" Keyboard="Email"/>
+                    <local:RoundedEntry x:Name="txtSenha" Text="{Binding Senha} "
+                       IsPassword="True" Placeholder="Senha" Margin="0,0,0,16"  PlaceholderColor="#8E8E8E" TextColor="Black"/>
+                    <local:RoundedEntry x:Name="txtSenhaConfirma"
+                       IsPassword="True" Placeholder="Confirmar senha" PlaceholderColor="#8E8E8E" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                    <Button x:Name="btnSalvar"
+                        Text="Salvar"
+                        Clicked="btnSalvar_Clicked"
+                        TextColor="White"
+                        BackgroundColor="#038C8C" CornerRadius="4"
+                        TextTransform="None"
+                        FontSize="20"/>
+                    <Button x:Name="btnVoltar"
+                        Text="Voltar"
+                        Clicked="btnVoltar_Clicked"
+                        TextColor="White"
+                        BackgroundColor="#27038C" CornerRadius="4"
+                        TextTransform="None"
+                        FontSize="20"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Unibikers.App.Models.Custom"
+             x:Class="Unibikers.App.Views.HomeView"
+             Title="Passeios">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#e5e6dc">
+                <Label Text="Montar Trajeto do Passeio" HorizontalOptions="CenterAndExpand" TextColor="#038C8C" FontSize="26" Margin="0,45,0,0" FontAttributes="Bold"/>
+                <StackLayout Margin="5,0,5,0">
+                    <Label x:Name="lblPasseio" BackgroundColor="#e5e6dc" Text="Preencha os locais de Partida e Chegada do Passeio, e clique no botão para montar o trajeto" TextColor="Black" FontSize="18" FontAttributes="Bold" Margin="15,15,0,16" HorizontalOptions="StartAndExpand"/>
+                    <Frame CornerRadius="4" Background="#038c8c">
+                    <StackLayout Background="#038c8c">
+                        <Label x:Name="lblPartida" Text="Local de Partida" TextColor="Black" Margin="8,0,8,0" FontAttributes="Bold" FontSize="Body" TextDecorations="None"></Label>
+                            <local:RoundedEntry x:Name="txtPatrida" Text="{Binding Partida}" Placeholder="Ex: Rua Nova Aurora, 26, Jardim Mutinga, Barueri, SP" PlaceholderColor="#8E8E8E" FontSize="16" Margin="8,0,8,0" TextColor="#038c8c" FontAttributes="Bold" HorizontalOptions="FillAndExpand"></local:RoundedEntry>
+                            <Label x:Name="lblChegada" Text="Local de Chegada" TextColor="Black" Margin="8,8,8,0" FontAttributes="Bold" FontSize="Body"  TextDecorations="None"></Label>
+                            <local:RoundedEntry x:Name="txtChegada" Text="{Binding Chegada}" Placeholder="Ex: Curso do Milton Nakamura" PlaceholderColor="#8E8E8E" FontSize="16" Margin="8,0,8,0" TextColor="#038c8c" FontAttributes="Bold" HorizontalOptions="FillAndExpand"></local:RoundedEntry>
+                    </StackLayout>
+                    </Frame>
+                    <Button Style="{StaticResource btnPrimario}" x:Name="btnPasseio" Text="Abrir Mapa do Passeio" BackgroundColor="#038C8C" CornerRadius="4" TextTransform="None" Padding="0,0,8,0" Margin="50,15,50,20" FontSize="18" FontAttributes="Bold" Clicked="btnRota_Clicked"></Button>
+                    <Label x:Name="lblInfo" Text="Caso deseje salvar esta rota e criar um evento para andar com a turma, basta selecionar os campos abaixo e clicar em ''Compartilhar Passeio''" TextColor="Black" FontSize="18" FontAttributes="Bold" Margin="5,5,0,16" HorizontalOptions="StartAndExpand"/>
+                    <Frame  CornerRadius="4" Background="#038c8c">
+                    <StackLayout HorizontalOptions="StartAndExpand">
+                        <Label x:Name="lblDataPasseio" Text="Data do Passeio" FontAttributes="Bold" TextColor="Black" FontSize="Body" Margin="20,0,0,0"/>
+                        <Label x:Name="lblHoraPasseio" Text="Horario do Passeio" FontAttributes="Bold" FontSize="Body" TextColor="Black" Margin="210,-26,0,10" />
+                        <DatePicker x:Name="txtData" Date="{Binding SelectedDate}" TextColor="#038c8c" FontAttributes="Bold" BackgroundColor="White" Margin="36,0,229,0"/>
+                        <TimePicker x:Name="txtHorario" Time="{Binding SelectedTime}" TextColor="#038c8c" FontAttributes="Bold" BackgroundColor="White" Margin="230,-51,33,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <Button Style="{StaticResource btnPrimario}" x:Name="btnCompPasseio" Text="Compartilhar Passeio" Clicked="btnCompPasseio_Clicked" Margin="50,15,50,20" Padding="0,0,8,0" FontAttributes="Bold" FontSize="18"></Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

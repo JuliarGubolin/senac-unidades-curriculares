@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unibikers.App.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Parametros personalizados-->
+            <Color x:Key="corPrimaria">#038C8C</Color>
+            <Color x:Key="corSecundaria">#09504c</Color>
+            <Color x:Key="corClara">#F1F1F1</Color>
+            <Color x:Key="corEscura">#333333</Color>
+            <!--Style personalizado-->
+            <Style TargetType="Button" x:Key="btnPrimario">
+                <Setter Property="BackgroundColor" Value="{StaticResource corPrimaria}" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="4"/>
+                <Setter Property="Margin" Value="4,4,4,4"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextTransform" Value="None"/>
+            </Style>
+            <Style TargetType="Button" x:Key="btnSecundario">
+                <Setter Property="BackgroundColor" Value="{StaticResource corSecundaria}" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="4"/>
+                <Setter Property="Margin" Value="4,4,4,4"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextTransform" Value="None"/>
+            </Style>
+            <!--Style geral-->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource corSecundaria}" />
+                <Setter Property="BarTextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="{StaticResource corClara}" />
+            </Style>
+            <Style TargetType="FlyoutPage">
+                <Setter Property="IconImageSource" Value="outline_home_white_18.png" />
+            </Style>
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="Padding" Value="8" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="WidthRequest" Value="120" />
+            </Style>
+        
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

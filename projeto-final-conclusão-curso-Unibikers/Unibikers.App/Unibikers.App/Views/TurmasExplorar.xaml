@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unibikers.App.Views.TurmasExplorar">
+    <ContentPage.Content>
+
+        <!--Stack Corpo-->
+        <StackLayout>
+
+            <!--Stack Cabecario-->
+            <StackLayout>
+                <ActivityIndicator x:Name="aiCarregando" 
+                                   IsRunning="False"
+                                   HeightRequest="16"/>
+                <SearchBar/>
+            </StackLayout>
+
+
+
+            <!--Inicio da Lista-->
+            <ListView x:Name="lvTurmas"
+                          IsPullToRefreshEnabled="True"
+                          VerticalOptions="FillAndExpand"
+                          Refreshing="lvTurmas_Refreshing"
+                          ItemSelected="lvTurmas_ItemSelected"
+                          HasUnevenRows="True">
+
+                <!-- Cabecario Lista -->
+                <ListView.Header>
+                    <Label Text="Explore e conheça pessoas novas..." HorizontalOptions="Center"
+                               FontSize="Title"
+                               Margin="8"/>
+                </ListView.Header>
+                <!-- Fim Cabecario Lista -->
+
+
+                <!--Itens da lista-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <Frame CornerRadius="12"
+                                           BorderColor="Black"
+                                           IsClippedToBounds="True"
+                                           VerticalOptions="FillAndExpand"
+                                           Margin="5">
+                                <FlexLayout Direction="Row"
+                                                    AlignItems="Center">
+                                    <StackLayout Padding="8">
+                                        <Label Text="{ Binding NomeTurma }" FontSize="Medium"/>
+                                        <Label Text="{ Binding DescricaoTurma }" />
+                                    </StackLayout>
+                                </FlexLayout>
+                            </Frame>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <!--Fim Itens da lista-->
+
+            </ListView>
+            <!--Fim da Lista-->
+
+
+
+        </StackLayout>
+        <!--Fim Stack Corpo-->
+
+    </ContentPage.Content>
+</ContentPage>

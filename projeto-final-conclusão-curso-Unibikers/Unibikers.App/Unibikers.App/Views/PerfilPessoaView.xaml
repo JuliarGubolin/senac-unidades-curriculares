@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unibikers.App.Views.PerfilPessoaView"
+             >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Margin="0,0,0,0">
+                <Frame BackgroundColor="#038C8C" BorderColor="#047171" Padding="0,40,0,40">
+                <StackLayout Padding="10">
+                    <Frame CornerRadius="100" Padding="0" IsClippedToBounds="True" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center">
+                        <Image Source="LogoUniBikers.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" HeightRequest="200"></Image>
+                    </Frame>
+                    <Label Text="{Binding Nome}" TextColor="White" FontSize="24" HorizontalOptions="CenterAndExpand" Margin="16,16,16,0"></Label>
+                </StackLayout>
+                </Frame>
+                <ScrollView>
+                <StackLayout Margin="0,0,0,0" VerticalOptions="CenterAndExpand" Padding="0,16,0,0">
+                    <StackLayout Margin="0,0,0,0" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" Margin="16,0,80,0">
+                            <Image Source="outline_account_circle_black_24.png" HorizontalOptions="StartAndExpand" WidthRequest="30" HeightRequest="30"></Image>
+                            <Label Text="{Binding Nome}" TextColor="Black" FontSize="20" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"></Label>
+                        </StackLayout >
+                        <BoxView HorizontalOptions="FillAndExpand"  HeightRequest="1" Color="#E5E4E2" Margin="0,0,0,20"/>
+                        <StackLayout Orientation="Horizontal" Margin="16,0,80,0">
+                            <Image Source="outline_email_black_24.png" HorizontalOptions="StartAndExpand" WidthRequest="30" HeightRequest="30"></Image>
+                            <Label Text="{Binding Email}" TextColor="Black" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" ></Label>
+                        </StackLayout>
+                        <BoxView HorizontalOptions="Fill" HeightRequest="1" Color="#E5E4E2" Margin="0,0,0,20"/>
+                        <StackLayout Orientation="Horizontal" Margin="16,0,80,0">
+                            <Image Source="outline_calendar_today_black_24.png" HorizontalOptions="StartAndExpand" WidthRequest="30" HeightRequest="30"></Image>
+                            <Label x:Name="txtIdade" TextColor="Black" FontSize="20" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"></Label>
+                        </StackLayout>
+                        <BoxView HorizontalOptions="Fill" HeightRequest="1" Color="#E5E4E2" Margin="0,0,0,20"/>
+                        <StackLayout Orientation="Horizontal" Margin="16,0,80,0">
+                            <Image Source="outline_calendar_today_black_24.png" HorizontalOptions="StartAndExpand" WidthRequest="30" HeightRequest="30"></Image>
+                            <Label x:Name="lblIdade" TextColor="Black" FontSize="20" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"></Label>
+                        </StackLayout>
+                        <BoxView HorizontalOptions="Fill" HeightRequest="1" Color="#E5E4E2" Margin="0,0,0,16"/>
+                        <StackLayout Margin="48,0,48,0">
+                            <Button x:Name="btnEditarPessoa" Style="{StaticResource btnPrimario}" Text="Adicionar endereço" Margin="56,16,56,16" Clicked="btnEditarPessoa_Clicked"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

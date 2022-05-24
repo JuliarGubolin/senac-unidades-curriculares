@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Unibikers.App.Models.Custom"
+             x:Class="Unibikers.App.Views.PessoaCadastroView"
+             Title="Cadastro" BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <StackLayout>
+                <Label Text="Informações adicionais" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="24" Margin="0,45,0,0" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Margin="16,30,0,0" Orientation="Horizontal" Padding="0,0,0,0">
+                <local:RoundedEntry x:Name="txtCEP" Placeholder="CEP" PlaceholderColor="#8E8E8E" Keyboard="Numeric" BackgroundColor="#FBF7F7" FontSize="16" Margin="0,0,90,0" TextColor="Black" HorizontalOptions="FillAndExpand"></local:RoundedEntry>
+                <Button Style="{StaticResource btnPrimario}" Text="Buscar" Clicked="btnCEP_Clicked" Margin="0,0,16,0"></Button>
+            </StackLayout>
+            <StackLayout Margin="0,5,0,0">
+                <Label x:Name="lblLogradouro" Text="Logradouro:" TextColor="Black" FontSize="16" Margin="16,45,0,0" HorizontalOptions="StartAndExpand"/>
+                <local:RoundedEntry x:Name="txtLogradouro" PlaceholderColor="#8E8E8E" Keyboard="Text" BackgroundColor="#FBF7F7" FontSize="16" Margin="16,0,20,0" TextColor="Black"></local:RoundedEntry>
+                <Label Text="Bairro:" TextColor="Black" FontSize="16" Margin="16,10,0,0" HorizontalOptions="StartAndExpand" />
+                <local:RoundedEntry x:Name="txtBairro" PlaceholderColor="#8E8E8E" Keyboard="Text" BackgroundColor="#FBF7F7" FontSize="16" Margin="16,0,20,0" TextColor="Black"></local:RoundedEntry>
+                <StackLayout Orientation="Horizontal" Margin="0,16,16,0" HorizontalOptions="Fill">
+                    <Label Text="Número:" TextColor="Black" FontSize="16" Margin="16,0,0,0" HorizontalOptions="StartAndExpand"/>
+                    <local:RoundedEntry x:Name="txtNumero" PlaceholderColor="#8E8E8E" Keyboard="Numeric" BackgroundColor="#FBF7F7" FontSize="16" TextColor="Black" Margin="-50,0,0,0" HorizontalOptions="FillAndExpand"></local:RoundedEntry>
+                    <Label Text="Sexo:" TextColor="Black" FontSize="16" Margin="0,0,10,0" HorizontalOptions="EndAndExpand"/>
+                    <Picker x:Name="txtSexo" 
+                            TextColor="Black" 
+                            HorizontalOptions="FillAndExpand"
+                            Margin="0,0,0,0">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>F</x:String>
+                                <x:String>M</x:String>
+                                <x:String>NB</x:String>
+                                <x:String>Vazio</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="btnSalvar" Text="Salvar" Clicked="btnSalvar_Clicked" Style="{StaticResource btnPrimario}"></Button>
+                </StackLayout>
+            </StackLayout>            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

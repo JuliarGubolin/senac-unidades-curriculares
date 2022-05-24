@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unibikers.App.Views.TurmasMasterView">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <!-- Grid Botoes abaixo dos TAB-->
+            <StackLayout>
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Botoes-->
+                    <Button                        
+                        Grid.Column="1" 
+                        Grid.Row="0"
+                        FontSize="Subtitle"
+                        Text="Explorar Turmas"
+                        x:Name="BtnExplorarTurmas"
+                        Clicked="BtnExplorarTurmas_Clicked"
+                        />
+
+                    <Button                       
+                        Grid.Column="0" 
+                        Grid.Row="0"
+                        FontSize="Subtitle"
+                        Text="Minhas Turmas"
+                        x:Name="BtnMinhasTurmas"
+                        Clicked="BtnMinhasTurmas_Clicked"
+                        />
+
+                    <Button                        
+                        Grid.Column="2" 
+                        Grid.Row="0"
+                        FontSize="Subtitle"
+                        Text="Criar Turma"
+                        x:Name="CriarTurma"
+                        Clicked="CriarTurma_Clicked"
+                        />
+                </Grid>
+            </StackLayout>
+            <!-- FIM Grid Botoes abaixo dos TAB-->
+
+            <!--Formatação: Deixar Tres Quadrados Gigantes Na Tela para ser acionada a Ttla referente a cada função para um facil manuseio -->
+            
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

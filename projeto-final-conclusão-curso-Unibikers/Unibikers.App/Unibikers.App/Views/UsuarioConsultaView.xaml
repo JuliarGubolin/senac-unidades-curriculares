@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unibikers.App.Views.UsuarioConsultaView">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="btnAtualizar"
+                     Text="Atualizar"
+                     Clicked="btnAtualizar_Clicked"/>
+        <ToolbarItem x:Name="btnAdicionar"
+                     Text="Adicionar"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <ActivityIndicator x:Name="aiCarregando" 
+                                   IsRunning="False"
+                                   HeightRequest="16"/>
+                <SearchBar/>
+            </StackLayout>
+            <ListView x:Name="lvUsuarios"
+                          IsPullToRefreshEnabled="True"
+                          Refreshing="lvUsuarios_Refreshing"
+                          ItemSelected="lvUsuarios_ItemSelected"
+                          ItemTapped="lvUsuarios_ItemTapped"
+                          VerticalOptions="FillAndExpand"
+                          HasUnevenRows="True">
+                <ListView.Header>
+                    <Label Text="Lista de usuarios" />
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem x:Name="Excluir"
+                                              Text="Excluir"
+                                              Clicked="Excluir_Clicked"
+                                              CommandParameter="{Binding IdUsuario}"
+                                              IsDestructive="True" />
+                            </ViewCell.ContextActions>
+                            <ViewCell.View>
+                                <Frame CornerRadius="20"
+                                           BorderColor="Black"
+                                           IsClippedToBounds="True"
+                                           VerticalOptions="FillAndExpand"
+                                           Margin="8">
+                                    <FlexLayout Direction="Row"
+                                                    AlignItems="Center">
+                                        <Frame CornerRadius="64" Padding="0"  IsClippedToBounds="True" HeightRequest="64" WidthRequest="64" HorizontalOptions="Center">
+                                        <Image Source="https://picsum.photos/64"
+                                               HeightRequest="64" 
+                                               WidthRequest="64"
+                                               Aspect="Fill"/>
+                                        </Frame>
+                                        <StackLayout Padding="16">
+                                            <Label Text="Teste novo" />
+                                            <Label Text="{ Binding Nome }" />
+                                            <Label Text="{ Binding Email }" />
+                                        </StackLayout>
+                                    </FlexLayout>
+                                </Frame>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout>              
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

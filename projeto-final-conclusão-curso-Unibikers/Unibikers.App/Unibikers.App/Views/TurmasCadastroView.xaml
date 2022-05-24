@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Unibikers.App.Models.Custom"
+             x:Class="Unibikers.App.Views.TurmasCadastroView">
+    <ContentPage.Content>
+        <StackLayout Margin="15">
+
+
+            <!--Cabecario-->
+            <StackLayout Margin="0,10,0,10">
+                <Label
+                FontSize="Title"
+                Text="Bem Vindo(a) a criação de uma nova turma."
+                />
+                <Label
+                FontSize="Subtitle"
+                Text=" Para Continuar registre todas as informações solicitadas."
+                />
+            </StackLayout>
+            <!-- Fim -->
+
+            <BoxView BackgroundColor="#d3d3d3" HeightRequest="3"/>
+
+            <!--Solicitações-->
+            <StackLayout Margin="0,30,0,10">
+
+                <Label
+                    FontSize="Subtitle"
+                    Text="Informe o nome da turma:"
+                   
+                />
+                <local:RoundedEntry                    
+                    Placeholder="Ex: Campeões das Bikers"
+                    x:Name="EtNomeTurma"
+                    Text="{Binding NomeTurma}"
+                    
+                    />
+
+                <Label
+                    FontSize="Subtitle"
+                    Text="Descreva sobre sua proposta de turma:"
+                    
+                />
+                <local:RoundedEntry                    
+                    Placeholder="Ex: Primeiro encontro em..."
+                    x:Name="EtDescricaoTurma"
+                    Text="{Binding DescricaoTurma}"
+                    />
+
+            </StackLayout>
+            <!-- Fim -->
+
+            <!--Botoes-->
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand" Padding="8">
+                
+                <Button x:Name="btnCancelar"
+                        Text="Cancelar"
+                        Clicked="btnCancelar_Clicked"
+                        TextColor="White"
+                        BackgroundColor="#038C8C" CornerRadius="4"
+                        TextTransform="None"
+                        FontSize="20"/>
+
+                <Button x:Name="btnCriarTurma"
+                        Text="Criar Turma"
+                        Clicked="btnCriarTurma_Clicked" TextColor="White"
+                        BackgroundColor="#038C8C" CornerRadius="4"
+                        TextTransform="None"
+                        FontSize="20"/>
+            </StackLayout>
+
+
+            <!-- Fim -->
+
+
+
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Unibikers.App.Models.Custom"
+             x:Class="Unibikers.App.Views.LoginView"
+             Title="Unibikers"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Padding="16"
+                     VerticalOptions="CenterAndExpand">
+            <StackLayout>
+                <Image Source="LogoUniBikers.png"
+                       Aspect="AspectFit" 
+                       HeightRequest="256"/>
+                <local:RoundedEntry x:Name="txtEmail"
+                       Placeholder="E-mail" Margin="0,20,0,20" PlaceholderColor="#8E8E8E" TextColor="Black"/>
+                <local:RoundedEntry x:Name="txtSenha"
+                       IsPassword="True" Placeholder="Senha" PlaceholderColor="#8E8E8E" Margin="0,0,0,0" TextColor="Black"/>               
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center" Padding="8">
+                <Button x:Name="btnRegistrar"
+                        Text="Registre-se"
+                        Clicked="btnRegistrar_Clicked"
+                        FontSize="16"  Style="{StaticResource btnPrimario}"/>
+                <Button x:Name="btnEntrar"
+                        Text="Entrar"
+                        Clicked="btnEntrar_Clicked"
+                        FontSize="16" Style="{StaticResource btnPrimario}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
