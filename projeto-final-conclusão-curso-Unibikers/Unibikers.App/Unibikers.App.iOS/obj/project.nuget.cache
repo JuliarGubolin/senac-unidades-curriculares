@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2WgYrfyIavl992N54Log954DRands7VdPqX/qFQW00gPCqWHxbceI43FVZdRGR4Pwhi775vEdP1HFXSZNtdOoQ==",
+  "dgSpecHash": "qTRwsN0AOwxfzMZyPtP2E4eBPXU0qfb+cRpMnBN8A36uBJUAi5WK7rJczKuGeG3Lkxt39v6KdNUrGn8RHtmTvA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App.iOS\\Unibikers.App.iOS.csproj",
+  "projectFilePath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App.iOS\\Unibikers.App.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gisla\\.nuget\\packages\\firebasedatabase.net\\4.0.7\\firebasedatabase.net.4.0.7.nupkg.sha512",
     "C:\\Users\\gisla\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
@@ -20,7 +20,7 @@
     "C:\\Users\\gisla\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\gisla\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\gisla\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\gisla\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

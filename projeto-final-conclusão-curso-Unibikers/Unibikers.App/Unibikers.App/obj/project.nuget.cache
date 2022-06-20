@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cqqa6S3aw8eGV+WiQQfM0bnctXB8fn/K2oBpAERnCWFYp0BkYjHo+zV0df0VlV97U48u4mEe8QaQ0imqDp3Cpg==",
+  "dgSpecHash": "IXBRgVPMApIK/rScKn7uCtSYPyAi6l1xauvz/VvzwwjBkUILsRg+KhM2o70466HDYuCnUnBafkLr3qShsH41TQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj",
+  "projectFilePath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gisla\\.nuget\\packages\\firebasedatabase.net\\4.0.7\\firebasedatabase.net.4.0.7.nupkg.sha512",
     "C:\\Users\\gisla\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
@@ -29,7 +29,7 @@
     "C:\\Users\\gisla\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\gisla\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\gisla\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\gisla\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

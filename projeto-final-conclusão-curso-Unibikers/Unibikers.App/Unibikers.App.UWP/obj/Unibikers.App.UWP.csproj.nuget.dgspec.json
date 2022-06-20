@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj": {}
+    "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj": {}
   },
   "projects": {
-    "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj": {
+    "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj",
+        "projectUniqueName": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj",
         "projectName": "Unibikers.App.UWP",
-        "projectPath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj",
+        "projectPath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App.UWP\\Unibikers.App.UWP.csproj",
         "packagesPath": "C:\\Users\\gisla\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App.UWP\\obj\\",
+        "outputPath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
           "C:\\Users\\gisla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.16299"
@@ -35,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj": {
-                "projectPath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj"
+              "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj": {
+                "projectPath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj"
               }
             }
           }
@@ -93,24 +91,22 @@
         }
       }
     },
-    "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj": {
+    "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj",
+        "projectUniqueName": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj",
         "projectName": "Unibikers.App",
-        "projectPath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj",
+        "projectPath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\Unibikers.App.csproj",
         "packagesPath": "C:\\Users\\gisla\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos_VS\\Unibikers.App\\Unibikers.App\\obj\\",
+        "outputPath": "D:\\workspace\\SENAC\\projeto-final-conclusão-curso-Unibikers\\Unibikers.App\\Unibikers.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\gisla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -168,7 +164,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
